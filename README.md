@@ -12,7 +12,9 @@ GenMiner's CryptoGen nVidia GPU Miner.
 
 Some say "The best mining software for nVidia GPUs". I just say : "Make your own opinion".
 
-Latest version is v3.0.2
+Latest version is v3.0.2 - 
+
+** NEW : LUX Phi2 algo **
 
 DOWNLOAD :
 --------
