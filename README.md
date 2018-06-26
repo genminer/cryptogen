@@ -1,8 +1,8 @@
 
 
 	____ ____ _    ____ ____ ____ ____ ____ __   
-	| __\| . \||_/\| . \|_ _\|   ||  _\| __\| \|\
-	| \__|  <_| __/| __/  || | . || [ \|  ]_|  \|
+	| __\| o \||_/\| o \|_ _\|   ||  _\| __\| \|\
+	| \__|  <_| __/| __/  || | o || [ \|  ]_|  \|
 	|___/|/\_/|/   |/     |/ |___/|___/|___/|/\_/
 
 
@@ -12,9 +12,8 @@ GenMiner's CryptoGen nVidia GPU Miner.
 
 Some say "The best mining software for nVidia GPUs". I just say : "Make your own opinion".
 
-Latest version is v3.0.2 - 
+Latest version is v3.0.3 
 
-** NEW : LUX Phi2 algo **
 
 DOWNLOAD :
 --------
@@ -31,7 +30,7 @@ HARDWARE / SYSTEM NEEDED :
 
 FEATURES :
 --------
-- Built for nVidia with CUDA 9.0, 32bits version (anyway faster than 64bits version)
+- Built for nVidia with CUDA 7.5, 32bits version (anyway faster than 64bits version)
 - New optimized code with special portions. Effective hashrate is higher, without power overkill.
 - Up to 16 GPUs can be used.
 - Supports Stratum versions
@@ -163,9 +162,10 @@ COMMAND LINE OPTIONS :
   -i, --intensity=N[,N]  GPU intensity 8.0-25.0 (default: auto)
                          Decimals are allowed for fine tuning
   -m, --diff-multiplier  Multiply difficulty by this value (default 1.0)
-  -M, --max-blocks-null  Maximum quantity of blocks without submit (default no limit)
-      --max-rejects      Maximum quantity of rejected blocks before terminating.
-                         (value between 3 and 32, default=7)
+  -M, --max-blocks-null  Maximum quantity of blocks without submit before
+                         terminating (default no limit)
+      --max-rejects      Maximum quantity of rejected blocks before terminating
+                         (value between 3 and 32, default=7).
       --max-temp=N       Only mine if gpu temp is less than specified value
       --max-rate=N[KMG]  Only mine if net hashrate is less than specified value
       --max-diff=N       Only mine if net difficulty is less than specified value
@@ -201,6 +201,7 @@ COMMAND LINE OPTIONS :
                          default=120, 0 to disable inactivity watchdog.
       --watch-quiet      Dont display watchdog living messages
   -w, --worker=name      Set worker name, to be used in pool file as WORKER
+                         default : computer name.
 GPUs options :
       --mem-clock=3505   Set the gpu memory boost clock
       --gpu-clock=1150   Set the gpu engine boost clock
@@ -209,6 +210,22 @@ GPUs options :
       --led=100          Set the logo led level (0=disable, 0xFF00FF for RVB)
 
 ```
+
+
+VERSION HISTORY :
+---------------
+
+Version v3.0.3 :
+
+- New X17 and X14 improved algos
+- Updated Phi2 algo
+- Compiled with CUDA 7.5 for best perfs
+
+
+Version v3.0.2 : 
+
+- LUX Phi2 algo
+
 
 <<< THIS PROGRAMM IS PROVIDED "AS-IS", USE IT AT YOUR OWN RISK ! >>>
 
