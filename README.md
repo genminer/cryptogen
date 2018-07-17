@@ -12,7 +12,7 @@ GenMiner's CryptoGen nVidia GPU Miner.
 
 Some say "The best mining software for nVidia GPUs". I just say : "Make your own opinion".
 
-Latest version is v3.0.5 
+Latest version is v3.0.6 
 
 
 DOWNLOAD :
@@ -214,6 +214,12 @@ GPUs options :
 
 VERSION HISTORY :
 ---------------
+
+Version 3.0.6 :
+  - Added ability to use pool's benchmarks with "stats" in pass
+  - Compiled with CUDA 9.1
+  - Tested with last nVidia driver 398.36
+  - Versions w32 + x64
 
 Version 3.0.5 :
   - Improvement on stratum disconnect management
