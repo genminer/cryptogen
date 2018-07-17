@@ -25,12 +25,12 @@ HARDWARE / SYSTEM NEEDED :
 ------------------------
 - OS : Windows 10 x64 (pro or enterprise recommended)
 - GPUs : 98x / 10xx cards (1080ti 8GB+ recommended :-)
-- Recent nVidia drivers (ex: 397.64), with compute capability 5.0 and beyond.
+- Recent nVidia drivers (ex: 398.36), with compute capability 5.0 and beyond.
 
 
 FEATURES :
 --------
-- Built for nVidia with CUDA 7.5, 32bits version (anyway faster than 64bits version)
+- Built for nVidia with CUDA 9.1, 32bits & 64bits versions
 - New optimized code with special portions. Effective hashrate is higher, without power overkill.
 - Up to 16 GPUs can be used.
 - Supports Stratum versions
